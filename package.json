@@ -1,0 +1,11 @@
+{
+  "name": "tpm-master-training-bot",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Telegram training management bot deployed with Python on Railway",
+  "scripts": {
+    "start": "python -m app.main",
+    "test": "pytest -q",
+    "check": "python -m compileall -q app"
+  }
+}
